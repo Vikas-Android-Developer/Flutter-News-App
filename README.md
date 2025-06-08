@@ -1,34 +1,85 @@
-News App
-A Flutter news application that fetches the latest news articles from various categories using NewsAPI. The app supports user authentication with Firebase, real-time location-based news, infinite scrolling, search functionality, and a sleek user interface with light/dark themes.
+# News App (Flutter)
 
-Features
-🗞️ Latest News Feed: Browse news from categories like General, Business, Technology, Sports, Health, Entertainment, and Science.
+A Flutter-based mobile news application that fetches and displays news articles from various categories. It uses Firebase Authentication for user login, supports location-based content, and provides a smooth, interactive UI.
 
-🔍 Search Articles: Search news by keywords across selected categories.
+---
 
-🌍 Location-based Country Selection: Uses device geolocation to set the country for news content.
+## Features
 
-🔄 Infinite Scrolling: Automatically loads more news articles when scrolling near the bottom.
+- **User Authentication**
+  - Firebase Authentication with Google Sign-In.
+  - Secure login and logout functionality.
 
-🔁 Pull to Refresh: Refresh news list manually by pulling down.
+- **News Categories**
+  - Browse news by categories such as General, Business, Technology, Sports, Health, Entertainment, and Science.
+  - Easy tab navigation between categories.
 
-🌗 Light & Dark Mode Toggle: Tap the app title to switch themes instantly.
+- **Search Functionality**
+  - Search for news articles by keywords.
 
-💡 Loading Shimmer Effect: Visually appealing placeholder while data loads.
+- **Location-based News**
+  - Uses device location to fetch relevant news (country-specific).
 
-🔐 Firebase Authentication: Secure login and logout with confirmation dialog.
+- **Smooth UI & UX**
+  - Pull to refresh news articles.
+  - Infinite scrolling with lazy loading of news.
+  - Loading shimmer effect while fetching data.
 
-🧭 Tab Bar Navigation: Easy category switching with icons and text.
+- **Detailed News View**
+  - Tap on any news card to view full article details.
 
-📰 Detailed News View: Tap an article to read full details on a separate screen.
+- **Dark & Light Theme Support**
+  - Tap the app title to toggle between dark and light themes.
 
-Screenshots
+---
+
+## Screenshots
+
+| Home Screen               | Article Detail           |
+|--------------------------|-------------------------|
 
 
-Getting Started
-Prerequisites
-Flutter SDK installed
+---
 
-Firebase project setup for authentication
+## How to Use
+
+- Open the app and log in with Google.
+- Browse news by selecting categories from the tabs.
+- Use the search bar to find specific news.
+- Tap on an article to read full details.
+- Pull down to refresh the news feed.
+- Tap the app title to toggle between dark and light theme.
+
+---
+
+## Known Issues
+
+- Location permission is required for country-specific news.
+- Some news images may fail to load depending on source availability.
+- Offline support is not yet implemented.
+
+---
+
+## Planned Features
+
+- Offline caching of news articles.
+- Push notifications for breaking news.
+- Additional authentication options (Facebook, Twitter).
+
+---
+
+## API
+
+This app uses the [NewsAPI]
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed ([Flutter installation guide](https://flutter.dev/docs/get-started/install))
+- Firebase project setup with Authentication enabled
+- An API key from NewsAPI
 
 
