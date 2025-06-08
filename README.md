@@ -31,4 +31,4 @@ Flutter SDK installed
 
 Firebase project setup for authentication
 
-NewsAPI key (https://newsapi.org/)
+
